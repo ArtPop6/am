@@ -1,0 +1,108 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+/* .container {
+}
+.top {
+  background-image: linear-gradient(-180deg, #f3d825 0%, #ffde00 100%);
+  border-radius: 0 8px 8px 0;
+  height: 119px;
+  overflow: hidden;
+}
+
+.top .cards {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  left: 10px;
+  margin: 6px 6px;
+  top: 0;
+}
+
+.cards .all__card {
+  width: 60pt;
+  height: 21pt;
+}
+
+.all__kind {
+  background-image: linear-gradient(45deg, #2c2d31 0%, #2b2c31 100%);
+}
+
+.card__expire {
+  padding: 0;
+  margin: 0 6px;
+  width: 67pt;
+  height: 29pt;
+  border-radius: 24px;
+  text-align: center;
+  align-items: center;
+  background: #ffffff;
+  opacity: 0.6;
+}
+
+.all__cards {
+  position: absolute;
+  display: flex;
+  left: 10px;
+  margin-top: 6px;
+  border-radius: 24px;
+}
+
+.all__card--inside {
+  width: 100px;
+  height: 29px;
+  background-image: linear-gradient(45deg, #2c2d31 0%, #2b2c31 100%);
+  color: white;
+  border-radius: 24px;
+}
+
+.all__cards .card__type {
+  background: #fff;
+  opacity: 0.6;
+  background-color：rgba(0, 0, 0, .7);
+  width: 67pt;
+  height: 29pt;
+  border-radius: 24px;
+} */
+page {
+  height: 100%;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: #fff;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.profile-info {
+  width: 100%;
+  height: 280rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 0 30.25rpx;
+  background-image: linear-gradient(-180deg, #f3d825 0%, #ffde00 100%);
+}

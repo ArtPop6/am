@@ -1,0 +1,31 @@
+{
+  "pages": ["pages/index/index", "pages/logs/logs"],
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F3D825",
+    "navigationBarTitleText": "我的卡片",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#101013",
+    "color": "#FFF",
+    "selectedColor": "#F3D825",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+
+        "iconPath": "./assets/shouye.png",
+        "selectedIconPath": "./assets/shouyeSelected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "./assets/mine.png",
+        "selectedIconPath": "./assets/mineSelected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
